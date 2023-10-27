@@ -26,5 +26,13 @@ namespace CACULATOR
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double A = double.Parse(textBox1.text);
+            double B = double.Parse(textBox2.text);
+            double C = (A+B);
+            textBox3.Text = C.ToString();
+        }
     }
 }
